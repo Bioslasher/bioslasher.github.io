@@ -1843,12 +1843,11 @@ td#inline-hostility-meter {
 
 #header-navigation {
     zoom: 0.92;
-    left: 325px;
+    margin-left: 325px;
 }
 
 #header-navigation-2nd-level {
-    left: 315px;
-  
+    margin-left: 315px;
 }
 
 /* =====================================================
@@ -2113,31 +2112,4 @@ font[color="orange"] {
 
 #irconline:hover::-webkit-scrollbar-track {
     background: #222 !important;
-}
-/* =====================================================
-   MOBILE FIX
-===================================================== */
-
-@media (max-width: 900px) {
-
-    #header-navigation {
-        zoom: 0.75 !important;
-
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-
-        width: auto !important;
-    }
-
-    #header-navigation-2nd-level {
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-
-        width: auto !important;
-    }
-
-    #header-navigation-2nd-level .navigation {
-        min-width: 60px !important;
-    }
-
 }
