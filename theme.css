@@ -1734,16 +1734,15 @@ td#inline-hostility-meter {
     right: auto !important;
 }
 
-#header-navigation-2nd-level .navigation {
-    min-width: 71px !important;
-    position: relative !important;
-    left: -16px !important;
+#header-navigation {
+    zoom: 0.92;
+    left: 325px;
+    margin-left: 0 !important;
 }
 
-#header-logo {
-    transform: scale(1.20) !important;
-    transform-origin: left top !important;
-    top: 10px !important;
+#header-navigation-2nd-level {
+    left: 315px;
+    margin-left: 0 !important;
 }
 
 
