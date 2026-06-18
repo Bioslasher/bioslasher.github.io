@@ -2077,3 +2077,41 @@ font[color="orange"] {
     background: #222 !important;
 }
 
+/* =====================================================
+   INGAME SCROLLBAR
+===================================================== */
+
+#irconline {
+    overflow-y: auto !important;
+
+    /* Firefox */
+    scrollbar-width: thin !important;
+    scrollbar-color: transparent transparent !important;
+}
+
+#irconline:hover {
+    scrollbar-color: #777 #222 !important;
+}
+
+/* Chrome / Edge */
+#irconline::-webkit-scrollbar {
+    width: 8px !important;
+}
+
+#irconline::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+#irconline::-webkit-scrollbar-thumb {
+    background: transparent !important;
+    border-radius: 4px !important;
+}
+
+#irconline:hover::-webkit-scrollbar-thumb {
+    background: #777 !important;
+}
+
+#irconline:hover::-webkit-scrollbar-track {
+    background: #222 !important;
+}
+
