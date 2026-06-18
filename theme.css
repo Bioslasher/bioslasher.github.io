@@ -1720,7 +1720,7 @@ td#inline-hostility-meter {
 #account-header {
     position: absolute !important;
 
-    left: 10px !important;
+    left:  auto !important;
     right: auto !important;
 
     top: 1295px !important;
@@ -1741,7 +1741,7 @@ td#inline-hostility-meter {
 }
 
 #header-navigation-2nd-level {
-    zoom: 0.92;
+   
     left: 315px;
     margin-left: 0 !important;
 }
