@@ -2036,6 +2036,38 @@ font[color="orange"] {
     right: auto !important;
 }
 
+#showchat {
+    overflow-y: auto !important;
+    scrollbar-width: thin !important;
+    scrollbar-color: transparent transparent !important;
+}
+
+/* Firefox */
+#showchat:hover {
+    scrollbar-color: #777 #222 !important;
+}
+
+/* Chrome / Edge / Safari */
+#showchat::-webkit-scrollbar {
+    width: 8px !important;
+}
+
+#showchat::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+#showchat::-webkit-scrollbar-thumb {
+    background: transparent !important;
+}
+
+#showchat:hover::-webkit-scrollbar-thumb {
+    background: #777 !important;
+    border-radius: 4px !important;
+}
+
+#showchat:hover::-webkit-scrollbar-track {
+    background: #222 !important;
+}
 
 
 
