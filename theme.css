@@ -2036,13 +2036,20 @@ font[color="orange"] {
     right: auto !important;
 }
 
+/* =====================================================
+   CHAT SCROLLBAR
+===================================================== */
+
 #showchat {
+    resize: none !important;
     overflow-y: auto !important;
+
+    /* Firefox */
     scrollbar-width: thin !important;
     scrollbar-color: transparent transparent !important;
 }
 
-/* Firefox */
+/* Firefox - pokaż po najechaniu */
 #showchat:hover {
     scrollbar-color: #777 #222 !important;
 }
@@ -2058,30 +2065,15 @@ font[color="orange"] {
 
 #showchat::-webkit-scrollbar-thumb {
     background: transparent !important;
+    border-radius: 4px !important;
 }
 
+/* pokaż po najechaniu */
 #showchat:hover::-webkit-scrollbar-thumb {
     background: #777 !important;
-    border-radius: 4px !important;
 }
 
 #showchat:hover::-webkit-scrollbar-track {
     background: #222 !important;
-}
-
-
-
-
-
-
-#showchat {
-    resize: none !important;
-    overflow-y: auto !important;
-    scrollbar-width: none !important;
-}
-
-#showchat::-webkit-scrollbar {
-    width: 0 !important;
-    display: none !important;
 }
 
