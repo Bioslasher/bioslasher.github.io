@@ -2114,20 +2114,30 @@ font[color="orange"] {
 #irconline:hover::-webkit-scrollbar-track {
     background: #222 !important;
 }
-/* MOBILE FIX */
+/* =====================================================
+   MOBILE FIX
+===================================================== */
 
 @media (max-width: 900px) {
 
     #header-navigation {
-        left: 0 !important;
-        width: 100% !important;
-        text-align: center !important;
+        zoom: 0.75 !important;
+
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+
+        width: auto !important;
     }
 
     #header-navigation-2nd-level {
-        left: 0 !important;
-        width: 100% !important;
-        text-align: center !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+
+        width: auto !important;
+    }
+
+    #header-navigation-2nd-level .navigation {
+        min-width: 60px !important;
     }
 
 }
