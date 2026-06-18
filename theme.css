@@ -1720,7 +1720,7 @@ td#inline-hostility-meter {
 #account-header {
     position: absolute !important;
 
-    left:  auto !important;
+    left:  10px !important;
     right: auto !important;
 
     top: 1295px !important;
