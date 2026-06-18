@@ -1854,11 +1854,12 @@ td#inline-hostility-meter {
 
 #header-navigation {
     zoom: 0.92;
-    margin-left: 325px;
+    left: 1px !important;
 }
 
 #header-navigation-2nd-level {
-    margin-left: 315px;
+    left: 1px !important;
+  
 }
 
 /* =====================================================
