@@ -1741,6 +1741,7 @@ td#inline-hostility-meter {
 }
 
 #header-navigation-2nd-level {
+    zoom: 0.92;
     left: 315px;
     margin-left: 0 !important;
 }
