@@ -2114,4 +2114,20 @@ font[color="orange"] {
 #irconline:hover::-webkit-scrollbar-track {
     background: #222 !important;
 }
+/* MOBILE FIX */
 
+@media (max-width: 900px) {
+
+    #header-navigation {
+        left: 0 !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    #header-navigation-2nd-level {
+        left: 0 !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+}
