@@ -1928,8 +1928,11 @@ font[color="orange"] {
     font-size: 18px !important;
     font-weight: normal !important;
 
+#overlay font,
+#overlay span {
+    white-space: nowrap !important;
+}
   
-   
 }
 
 /* Pole komendy */
