@@ -1842,7 +1842,7 @@ td#inline-hostility-meter {
 }
 
 #header-navigation {
-    
+    zoom: 0.90;
     left: 325px;
 }
 
@@ -1925,7 +1925,7 @@ font[color="orange"] {
 
 #botcommand {
 
-    width: 390px !important;
+    width: 380px !important;
 
     background: linear-gradient(
         to bottom,
