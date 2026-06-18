@@ -1718,6 +1718,15 @@ td#inline-hostility-meter {
 ===================================================== */
 
 
+#account-container {
+    position: fixed !important;
+
+    left: 15px !important;
+    bottom: 15px !important;
+
+    z-index: 99999 !important;
+}
+
 #account-header {
     position: absolute !important;
 
